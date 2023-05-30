@@ -1,0 +1,81 @@
+  footer {
+    /* position: fixed; */
+  
+    background-color: 'bg-[#F90105]';
+    color:white;
+    font-weight: bold;
+    bottom: 0;
+    opacity: 0.8;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .customFont{
+    font-family: 'Righteous';
+      
+      font-size: 50px;
+      font-weight: 1000;
+    
+    }
+
+    .customFont2{
+      font-family: 'Righteous';
+      
+      font-size: 30px;
+      font-weight: 400;
+
+    }
+    
+    @media screen and (max-width: 850px) {
+        .button-17 {
+            font-size: 20px;
+            padding: 6px 18px;
+            height: 45px;
+    
+    
+        }
+    
+        .customFont{
+            font-size: 35px;
+        }
+
+        .customFont2{
+          font-size: 20px;
+        }
+        
+      }
+      
+      
+      .customFont3{
+        font-family: 'Righteous';
+          
+          font-size: 24px;
+          font-weight: 500;
+        
+        }
+        
+    @media screen and (max-width: 550px) {
+      .button-17 {
+          font-size: 18px;
+          padding: 4px 14px;
+          height: 40px;
+  
+  
+      }
+  
+      .customFont{
+          font-size: 25px;
+      }
+
+      .customFont2{
+        font-size: 14px;
+      }
+
+      .customFont3{
+        font-size: 14px;
+    }
+      
+  }
+
