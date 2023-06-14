@@ -4,7 +4,8 @@ import './index.css'
 import ParentComp from "./components/ParentComp/ParentComp.jsx";
 import FavoritesPage from "./components/ParentComp/FavoritesPage.jsx";
 import "./index.css";
-import Footer from "./components/Footer/Footer.js";
+import Payments from './components/Payments.jsx';
+// import Footer from "./components/Footer/Footer.js";
 import Signin from "./pages/Signin/Signin";
 import Signup from "./pages/Signup/Signup";
 import Profile from "./pages/Profile/Profile";
@@ -87,6 +88,8 @@ function App() {
         <Route path="/home" element={<ParentComp />} />
         <Route path="/favorites" element={<NotFound />} />
         <Route path="/docs/:username" element={<FavoritesPage />} />
+        <Route path="/payments" element={<Payments />} />
+        <Route path="/users/profile" element={<Profile />} />
 
         {/* ================== */}
       </Routes>

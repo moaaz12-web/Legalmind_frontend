@@ -155,9 +155,40 @@ export default function Navbar({user, Logout}) {
                               active ? "bg-gray-100 cursor-pointer" : "",
                               "block px-4 py-2 text-sm text-[#F90105] font-bold"
                             )}
-                            onClick={()=>navigate("/aboutus")}
+                            // onClick={()=>navigate("/users/profile")}
+                            onClick={()=>{
+                              
+                              if (!user & !user._id) {
+                                navigate("/signin");
+                              } else if (user || user._id) {
+                                navigate("/users/profile");
+                              }
+                           
+                            }}
                           >
-                            About Us
+                            Profile
+                          </span>
+                        )}
+                      </Menu.Item>
+
+                      <Menu.Item>
+                        {({ active }) => (
+                          <span
+                            className={classNames(
+                              active ? "bg-gray-100 cursor-pointer" : "",
+                              "block px-4 py-2 text-sm text-[#F90105] font-bold"
+                            )}
+                            onClick={()=>{
+                              
+                              if (!user & !user._id) {
+                                navigate("/signin");
+                              } else if (user || user._id) {
+                                navigate("/payments");
+                              }
+                           
+                            }}
+                          >
+                            Pricing
                           </span>
                         )}
                       </Menu.Item>

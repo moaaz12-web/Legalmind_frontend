@@ -2,7 +2,7 @@ import generatedReducer from "./reducers/generatedReducer.js";
 import thunk from "redux-thunk"
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-// import docsReducer from "./reducers/docsReducer.js";
+import subscriptionReducer from "./reducers/subscriptionReducer.js";
 
 const saveToLocalStorage = (state) => {
   try {
@@ -28,6 +28,7 @@ const middleware = [thunk];
 
 const reducer = combineReducers({
   generated: generatedReducer,
+  subscription: subscriptionReducer
   // translated:translatedReducer,
   // docs:docsReducer
 });

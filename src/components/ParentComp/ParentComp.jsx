@@ -136,7 +136,7 @@ const ParentComp = () => {
       return;
     }
 
-    Axios.post("https://dull-red-lizard-belt.cyclic.app/api/v1/improve", { text: userText, lang: userLanguage })
+    Axios.post("https://dull-red-lizard-belt.cyclic.app/api/v1/improve", { text: userText, lang: userLanguage, userid:user })
     // Axios.post("/api/v1/improve", { text: userText, lang: userLanguage })
       // Axios.post("https://dark-blue-swordfish-cap.cyclic.app/api/v1/improve", { text: userText })
       .then((res) => {

@@ -28,7 +28,7 @@ const Footer = () => {
       <footer className="bg-[#FE3131] opacity-100 relative text-white font-bold">  
         <div className="mx-auto w-full max-w-screen-xl  py-0">
           <div className="md:flex md:justify-center items-center">
-            <div className="mb-6 md:mb-0">
+            <div className="mb-4 md:mb-0">
               <p className="flex justify-center items-center">
                 {/* <img
                   src={logo}
