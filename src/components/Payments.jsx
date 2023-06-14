@@ -191,11 +191,11 @@ const Payments = () => {
         let priceid = ""
         if (event.target.id === 'Basic') {
             // priceid = `${process.env.price_id_std}`
-            priceid = "price_1NFlYmA5eTipZQn7r4oiX8Nf"
+            priceid = "price_1NJ2a4A5eTipZQn73Uo756Ee"
 
         } else if (event.target.id === "Standard") {
             // priceid = `${process.env.price_id_premium}`
-            priceid = "price_1NGV5XA5eTipZQn7j1CtCABZ"
+            priceid = "price_1NFlYmA5eTipZQn7r4oiX8Nf"
         } else if (event.target.id === "Premium") {
             // priceid = `${process.env.price_id_premium}`
             priceid = "price_1NGV5XA5eTipZQn7j1CtCABZ"
