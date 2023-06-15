@@ -4,8 +4,6 @@ import './index.css'
 import ParentComp from "./components/ParentComp/ParentComp.jsx";
 import FavoritesPage from "./components/ParentComp/FavoritesPage.jsx";
 import "./index.css";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import Payments from './components/Payments.jsx';
 // import Footer from "./components/Footer/Footer.js";
 import Signin from "./pages/Signin/Signin";
