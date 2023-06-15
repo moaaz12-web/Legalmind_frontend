@@ -24,6 +24,7 @@
   font-weight: bold;
 }
 
+
 .number {
   font-size: 22px;
 }
@@ -56,4 +57,49 @@ hr .new1 {
 
 .date {
   background-color: #ccc;
+}
+
+@media (max-width: 500px) {
+  .name {
+    font: size 16px;
+  }
+  .number{
+    font-size: 16px;
+  }
+  .follow{
+    font-size: 16px;
+  }
+  .text span{
+    font-size: 10px;
+  }
+  .icons i{
+    font-size: 12px;
+  }
+  .join{
+    font-size: 12px;
+  }
+  
+}
+
+
+@media (max-width: 400px) {
+  .name{
+    font-size: 14px;
+  }
+  .number{
+    font-size: 14px;
+  }
+  .follow{
+    font-size: 14px;
+  }
+  .text span{
+    font-size: 10px;
+  }
+  .icons i{
+    font-size: 12px;
+  }
+  .join{
+    font-size: 12px;
+  }
+  
 }
